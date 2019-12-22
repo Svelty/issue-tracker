@@ -1,4 +1,9 @@
 package com.jsm.issue.tracker.issue;
 
-public class IssueService {
+public interface IssueService {
+    /**
+     * Create a new issue to be tracked
+     * @return Issue
+     */
+    Issue createIssue();
 }
